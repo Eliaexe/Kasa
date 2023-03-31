@@ -1,0 +1,23 @@
+main {
+    background-color: #F7F7F7;
+    padding: 56px 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-top: 43px;
+}
+
+ul {
+    display: contents;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+  

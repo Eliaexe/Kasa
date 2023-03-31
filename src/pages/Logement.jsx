@@ -1,7 +1,14 @@
-// import Header from "../components/Header";
+import Header from "../components/Header";
+import Carousel from "../components/Carousel";
+import LocationDetails from "../components/LocationDetails";
 
 function Logement() {
-    return(<h1>Logement</h1>)
+    return(<div>
+        <Header />
+        <Carousel />
+        <LocationDetails />
+        </div>
+    )
 }
 
 export default Logement
