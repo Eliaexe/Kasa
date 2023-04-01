@@ -8,7 +8,7 @@ function Gallery() {
         <main className="gallery">
             <ul>
                 {houses.map(house => (
-                    <SingleCard key={house.id} title={house.title} cover={house.cover}/>
+                    <SingleCard key={house.id} title={house.title} cover={house.cover} id={house.id}/>
                 ))}
             </ul>
         </main>
