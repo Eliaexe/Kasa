@@ -1,6 +1,27 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
+}
+
+nav a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FF6060;
+    margin-left: 57px;
+}
+
+.undelined{
+    text-decoration: underline;
+}
+
+body {
+    padding: 0px 100px;
 }
 

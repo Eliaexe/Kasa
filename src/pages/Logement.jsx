@@ -11,7 +11,7 @@ function Logement(props) {
 
     return(<div>
         <Header />
-        <Carousel />
+        <Carousel key={house.id} pictures={house.pictures} />
         <LocationDetails key={house.id}
                          title={house.title} 
                          location={house.location} 

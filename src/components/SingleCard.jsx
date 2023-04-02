@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function SingleCard(props){
     return(
-        <article>
+        <article className="post">
             <Link to={`/logement/${props.id}`}>
                 <img src={props.cover} alt="" />
                 <div className="overlay">
