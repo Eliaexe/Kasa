@@ -1,4 +1,4 @@
-main {
+.gallery {
     background-color: #F7F7F7;
     padding: 56px 50px;
     border-radius: 25px;
@@ -11,7 +11,7 @@ main {
     margin-top: 43px;
 }
 
-ul {
+.gallery ul {
     display: contents;
     width: 100%;
     margin: 0;

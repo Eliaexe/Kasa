@@ -1,0 +1,25 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.error h1 {
+    font-size: 288px;
+    font-weight: 700;
+}
+
+.error h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.error a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+    margin-top: 180px;
+}

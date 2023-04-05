@@ -7,8 +7,6 @@ import { houses } from "../assets/data"
 function Logement(props) {
     let param = useParams()
     const house = houses.find(item => item.id === param.id);
-    console.log(house);
-
     return(<div>
         <Header />
         <Carousel key={house.id} pictures={house.pictures} />
