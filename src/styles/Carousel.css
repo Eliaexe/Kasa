@@ -1,20 +1,38 @@
 .carousel{
     height: 415px;
     width: 100%;
-    background-color: aqua;
     border-radius: 25px;
-    
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
-    /* position: absolute; */
-    z-index: 1;
+.homeImage {
+    display: none;
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.slider{
+    position: absolute;
+    background: none;
+    border: none;
+    margin: 0 50px;
+}
+
+.right{
+    right: 100px;
 }
 
 .arrow{
-    position: relative;
     height: 79,2px;
     width: 46,68px;
-    z-index: 3;
+}
+
+.active{
+    display: block !important;
 }
