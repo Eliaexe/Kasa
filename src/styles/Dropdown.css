@@ -1,4 +1,4 @@
-.drop-down{
+.drop-down-logement{
     height: 249px;
     width: 582px;
 }
@@ -18,7 +18,7 @@ h3 {
     font-weight: 500;
 }
 
-.head-drop img {
+.head-drop-logement img {
     transform: rotate(-90deg);
     height: 35px;
     width: 22px;
@@ -28,10 +28,13 @@ h3 {
     margin: 0;
     border-radius: 0 0 10px 10px;
     background: #F6F6F6;
+}
+
+.bd-drop-height {
     height: 200px;
 }
 
-.body-drop p {
+.body-drop-logement p {
     display: block;
     margin-top: 0;
     padding: 35px 20px 15px 20px;
@@ -41,15 +44,37 @@ h3 {
     line-height: 22px;
 }
 
-.body-drop ul {
+.body-drop-logement ul {
     display: block;
     padding: 35px 20px 15px 20px;
+    margin-top: 0px;
 }
 
-.body-drop li {
+.body-drop-logement li {
     list-style: none;
     font-size: 14px;
     font-weight: 400;
     color: #FF6060;
     line-height: 22px;
 }
+
+.dorp-down-apropos {
+    height: auto;
+    width: 85%;
+}
+
+.bd-drop-height-apopos {
+    height: auto;
+}
+
+.bd-drop-height-apopos p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 25px;
+    margin-top: 0;
+}
+
+ 
