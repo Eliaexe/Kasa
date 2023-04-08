@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import LocationDetails from "../components/LocationDetails";
+import Footer from "../components/Footer"
 import { useParams } from "react-router-dom";
 import { houses } from "../assets/data"
 
@@ -18,6 +19,7 @@ function Logement(props) {
                          equipments={house.equipments}
                          host={house.host}
                          rating={house.rating}/>
+        <Footer />
         </div>
     )
 }

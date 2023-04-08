@@ -33,7 +33,6 @@ function LocationDetails(prop) {
             <Dropdown title="Description" content={prop.description} />
             <Dropdown title="Equipments" content={prop.equipments} />
         </div>
-
     </div>)
 }
 

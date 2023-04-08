@@ -10,6 +10,7 @@
     background-color: #FF6060;
     padding: 0 20px;
     border-radius: 10px 10px 0 0;
+    height: 50px;
 }
 
 .border-radius {
@@ -25,8 +26,8 @@
 
 .head-drop img {
     transform: rotate(-90deg);
-    height: 35px;
-    width: 22px;
+    height: 30px;
+    width: 18px;
 }
 
 .body-drop{
@@ -36,7 +37,10 @@
 }
 
 .bd-drop-height {
-    height: 200px;
+    height: 190px;
+}
+.body-drop-logement{
+    background-color: #F7F7F7;
 }
 
 .body-drop-logement p {
@@ -70,6 +74,7 @@
 
 .bd-drop-height-apopos {
     height: auto;
+    margin-bottom: 33px;
 }
 
 .bd-drop-height-apopos p {

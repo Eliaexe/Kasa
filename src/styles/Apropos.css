@@ -1,12 +1,13 @@
 .a-propos-image {
-    width: 100%;
+    width: fit-content;
     height: 223px;
     object-fit: cover;
     border-radius: 25px;
-    margin-top: 44px;
+    margin: 44px 100px 0px 100px;
 }
 
 .apropos-main{
     margin-top: 33px;
     padding: 0 125px;
 }
+

@@ -6,7 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin: 40px 100px 0px 100px;
 }
 
 nav a{
@@ -21,7 +21,7 @@ nav a{
     text-decoration: underline;
 }
 
-body {
+/* body {
     padding: 0px 100px;
-}
+} */
 
