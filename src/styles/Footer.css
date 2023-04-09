@@ -17,3 +17,17 @@ footer h2 {
     color: white;
     margin-top: 28px;
 }
+
+@media (max-width: 400px) {
+    footer {
+        margin-top: 25px;
+    }
+
+    footer img {
+        width: 122px;
+    }
+    
+    footer h2 {
+        font-size: 12px;
+    }
+}

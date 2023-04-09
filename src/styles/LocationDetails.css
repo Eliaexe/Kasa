@@ -64,3 +64,21 @@ span{
     justify-content: space-between;
     margin-top: 24px;
 }
+
+@media (max-width: 400px) {
+    .location-details{
+        margin: 20px;
+    }
+
+    .home-presentation h1 {
+        font-size: 18px;
+    }
+    
+    .home-presentation h2 {
+        font-size: 14px;
+    }
+    .top-section {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -26,4 +26,19 @@
     position: relative;
     margin: 68px 100px 0px 100px;
   }
+
+@media (max-width: 400px) {
+  .head-image-container{
+    margin: 20px;
+  }
+
+  .head-image-overlay p {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px ;
+  }
+  .head-image {
+    height: 111px;
+  }
+}
   

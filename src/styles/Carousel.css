@@ -36,3 +36,25 @@
 .active{
     display: block !important;
 }
+
+@media (max-width: 400px) {
+    .carousel{
+        margin: 20px;
+        height: 350px;
+    }
+
+    .homeImage{
+        height: 335px;
+    }
+
+    .arrow {
+        width: 11.6px;
+        height: 19.8;
+    }
+    .slider {
+        margin: 0 0 0 20px;
+    }
+    .right {
+        margin-right: -55px;
+    }
+}

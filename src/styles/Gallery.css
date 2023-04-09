@@ -18,6 +18,13 @@
     padding: 0;
 }
 
+@media (max-width: 400px) {
+    .gallery{
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+    }
+}
 
 
   

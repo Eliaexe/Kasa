@@ -24,4 +24,10 @@
     object-fit: cover;
     filter: brightness(70%);
   }
+
+  @media (max-width: 400px) {
+    .post {
+      margin-bottom: 20px;
+    }
+  }
   
