@@ -105,3 +105,37 @@
 .rotate {
     transform: rotate(90deg) !important;
 }
+
+@media (max-width: 400px) {
+    .drop-down-logement{
+        width: 100%;
+    }
+    .drop-down-logement h3 {
+        font-size: 13px;
+    }
+    .drop-down-logement img {
+        width: 9px;
+        height: 13px;
+    }
+    .head-drop{
+        height: 40px;
+    }
+    .body-drop-logement{
+        padding: 20px 11px;
+        height: auto;
+    }
+    .body-drop-logement p {
+        padding: 0;
+        font-size: 13px;
+    }
+    .bd-drop-height{
+        height: auto;
+    }
+    .drop-down-logement{
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+    
+}

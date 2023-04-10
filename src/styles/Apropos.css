@@ -11,3 +11,24 @@
     padding: 0 125px;
 }
 
+@media (max-width: 400px){
+    .a-propos-image{
+        margin: 0 20px;
+        width: 89.5%;
+    }
+    .apropos-main{
+        margin:  20px;
+        padding: 0;
+    }
+    .head-drop-title{
+        font-size: 13px;
+    }
+    .bd-drop-height-apopos p{
+        font-size: 12px;
+        line-height: 17.11px;
+    }
+    .head-drop img{
+        width: 9px;
+        height: 16px;
+    }
+}
