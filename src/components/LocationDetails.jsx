@@ -2,7 +2,6 @@ import Dropdown from "./Dropdown"
 import "../styles/LocationDetails.css"
 
 function LocationDetails(prop) {
-    console.log(5 - prop.rating);
     return(
     <div className="location-details">
         <section className="section">
@@ -12,7 +11,9 @@ function LocationDetails(prop) {
                 <h2>{prop.location}</h2>
             </div>
             <div className="tagContainer">
-                    {prop.tags.map(tag => (<span className="tag">{tag}</span>))}
+            {prop.tags.map(tag => (
+                <span key={prop.id} className="tag">{tag}</span>
+            ))}
             </div>
         </div>
         <div className="right-section">

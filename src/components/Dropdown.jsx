@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../styles/Dropdown.css"
 
 function Dropdown(prop) {
-  const [isContentVisible, setIsContentVisible] = useState(true);
+  const [isContentVisible, setIsContentVisible] = useState(false);
 
   const showHideHandler = () => {
     setIsContentVisible(!isContentVisible);

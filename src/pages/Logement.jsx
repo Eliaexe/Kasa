@@ -8,20 +8,27 @@ import { houses } from "../assets/data"
 function Logement(props) {
     let param = useParams()
     const house = houses.find(item => item.id === param.id);
-    return(<div>
-        <Header />
-        <Carousel key={house.id} pictures={house.pictures} />
-        <LocationDetails key={house.id}
-                         title={house.title} 
-                         location={house.location} 
-                         tags={house.tags} 
-                         description={house.description} 
-                         equipments={house.equipments}
-                         host={house.host}
-                         rating={house.rating}/>
-        <Footer />
-        </div>
-    )
+    const sss = window.location.pathname.split('/').pop();
+    const pageExistence = houses.find(item => item.id === sss);
+    
+    if (pageExistence) { 
+        return(<div>
+            <Header />
+            <Carousel key={house.id + 'ccaarr'} pictures={house.pictures} />
+            <LocationDetails key={house.id}
+                            title={house.title} 
+                            location={house.location} 
+                            tags={house.tags} 
+                            description={house.description} 
+                            equipments={house.equipments}
+                            host={house.host}
+                            rating={house.rating}/>
+            <Footer />
+            </div>
+        )
+    } else {
+        window.location.pathname = '*'
+    }
 }
 
 export default Logement
