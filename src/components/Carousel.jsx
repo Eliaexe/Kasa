@@ -1,4 +1,4 @@
-import "../styles/Carousel.css"
+import "../styles/Carousel.css";
 import { useState } from "react";
 
 function Carousel(props) {
@@ -25,14 +25,14 @@ function Carousel(props) {
   return (
     <div className="carousel">
       <button onClick={prevSlide} className={`slider ${hideButtons ? 'd-none' : ''}`}>
-        <img className="arrow" src="/images/arrow-left.png" alt="arrow right" />
+        <img className="arrow" src="/images/arrow-left.png" alt="arrow left" />
       </button>
-      {pictures.map((pic, index) => (
+      {pictures.map((pic) => (
         <img
-          key={index}
+          key={pic}
           src={pic}
           alt=""
-          className={index === currentSlide ? "active homeImage" : "homeImage"}
+          className={pic === pictures[currentSlide] ? "active homeImage" : "homeImage"}
         />
       ))}
       <button onClick={nextSlide} className={`slider right ${hideButtons ? 'd-none' : ''}`}>

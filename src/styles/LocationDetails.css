@@ -32,7 +32,6 @@ h2{
 
 .tagContainer {
     margin-top: 20px;
-
 }
 
 .tagContainer span {
@@ -82,6 +81,44 @@ span{
     margin-top: 24px;
 }
 
+@media (min-width: 400px) and (max-width: 1050px) {
+    .location-details{
+        margin: 35px 25px 0px 25px;
+    }
+    .star-container img {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .top-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-section{
+        flex-direction: row-reverse;
+        margin-top: 20px;
+    }
+    .star-container{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-top: 0;
+    }
+    .host-details, .star-container{
+        width: 50%;
+    }
+    .drop-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
 @media (max-width: 400px) {
     .location-details{
         margin: 20px;
@@ -94,10 +131,7 @@ span{
     .home-presentation h2 {
         font-size: 14px;
     }
-    .top-section {
-        display: flex;
-        flex-direction: column;
-    }
+
     .tagContainer{
         display: flex;
         align-items: center;
@@ -113,10 +147,7 @@ span{
         font-size: 10px;
         height: 18px;
     }
-    .section{
-        display: flex;
-        flex-direction: column;
-    }
+
     .host-details h2 {
         font-size: 12px;
     }
@@ -124,19 +155,7 @@ span{
         width: 32px;
         height: 32px;
     }
-    .right-section{
-        flex-direction: row-reverse;
-        margin-top: 13px;
-    }
-    .star-container{
-        display: flex;
-        align-items: center;
-        width: 50%;
-        margin-top: 0;
-    }
-    .host-details{
-        width: 50%;
-    }
+
     .host-details h2 {
         width: 80px;
     }
@@ -145,10 +164,4 @@ span{
         width: 13px;
         height: 13px;
     }
-    .drop-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
 }

@@ -1,6 +1,7 @@
 .drop-down-logement{
-    height: 249px;
+    /* height: 249px; */
     width: 582px;
+    margin-bottom: 15px;
 }
 
 .head-drop{
@@ -104,6 +105,12 @@
 
 .rotate {
     transform: rotate(90deg) !important;
+}
+
+@media (max-width: 670px) {
+    .drop-down-logement{
+        width: auto;
+    }
 }
 
 @media (max-width: 400px) {

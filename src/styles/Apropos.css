@@ -1,21 +1,18 @@
-.a-propos-image {
-    width: fit-content;
-    height: 223px;
-    object-fit: cover;
-    border-radius: 25px;
-    margin: 44px 100px 0px 100px;
-}
-
 .apropos-main{
     margin-top: 33px;
     padding: 0 125px;
 }
+.head-image-container img {
+    object-fit: cover;
+}
+
+@media (min-width: 400px) and (max-width: 1050px) {
+ .apropos-main{
+    padding: 0px 35px;
+ }    
+}
 
 @media (max-width: 400px){
-    .a-propos-image{
-        margin: 0 20px;
-        width: 89.5%;
-    }
     .apropos-main{
         margin:  20px;
         padding: 0;

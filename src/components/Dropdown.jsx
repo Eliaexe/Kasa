@@ -13,7 +13,7 @@ function Dropdown(prop) {
     content = <p>{prop.content}</p>;
   } else if (typeof prop.content === 'object') {
     content = (
-      <ul>
+      <ul key={prop.title}>
         {prop.content.map((x, i) => (
           <li key={i}>{x}</li>
         ))}

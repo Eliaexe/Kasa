@@ -1,4 +1,4 @@
-.head-image {
+  .head-image {
     border-radius: 25px;
     display: block;
     width: 100%;
@@ -26,6 +26,16 @@
     position: relative;
     margin: 68px 100px 0px 100px;
   }
+  .head-image-container-apropos img{
+    width: fit-content;
+  }
+
+@media (min-width: 400px) and (max-width: 1050px) {
+  .head-image-container {
+    margin: 45px 25px 0 25px;
+  }
+}
+
 
 @media (max-width: 400px) {
   .head-image-container{

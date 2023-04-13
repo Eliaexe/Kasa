@@ -18,6 +18,20 @@
     padding: 0;
 }
 
+@media (min-width: 400px) and (max-width: 1050px) {
+    .gallery{
+        margin: 30px 25px 0px 25px;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 1050px) {
+    .gallery{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+  
 @media (max-width: 400px) {
     .gallery{
         padding: 0px;

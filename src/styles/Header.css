@@ -21,7 +21,20 @@ nav a{
     text-decoration: underline;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 450px) and (max-width: 1050px) {
+    header{
+        display: flex;
+        margin: 25px
+    }
+}
+
+@media (min-width: 450px) and (max-width: 580px){
+    nav a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 450px) {
     header {
         display: flex;
         margin: 20px;

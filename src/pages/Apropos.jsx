@@ -1,13 +1,14 @@
 import Header from "../components/Header";
 import Dropdown from "../components/Dropdown";
 import Footer from "../components/Footer";
+import HeadImage from "../components/HeadImage";
 import "../styles/Apropos.css"
 
 function Apropos(){
     return(
     <div>
         <Header />   
-        <img className="a-propos-image" src="/images/a-propos.png" alt="Kasa Logo" />
+        <HeadImage/>
         <main className="apropos-main">
         <Dropdown title="Fiabilité" content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
         <Dropdown title="Respect" content="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />
