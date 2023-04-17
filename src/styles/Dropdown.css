@@ -107,9 +107,16 @@
     transform: rotate(90deg) !important;
 }
 
+.drop-container .drop-down-apropos{
+    width: 45%;
+}
+
 @media (max-width: 670px) {
     .drop-down-logement{
         width: auto;
+    }
+    .drop-container .drop-down-apropos{
+        width: 100%;
     }
 }
 
